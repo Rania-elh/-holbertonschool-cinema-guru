@@ -1,0 +1,14 @@
+.activity {
+  color: #fff;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.activity p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+.activity-name {
+  color: #f31d27;
+}

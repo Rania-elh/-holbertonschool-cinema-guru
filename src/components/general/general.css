@@ -1,0 +1,80 @@
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  width: 100%;
+  text-align: left;
+}
+
+.input-group label {
+  color: #cfcfcf;
+  font-size: 14px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  padding: 10px 14px;
+  box-sizing: border-box;
+}
+
+.input-icon {
+  color: #8a8a8a;
+}
+
+.text-input {
+  border: none;
+  outline: none;
+  background: transparent;
+  width: 100%;
+  font-size: 15px;
+  color: #222;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 18px;
+  background: #e4572e;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #c9451f;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  background: #2b2b2b;
+  border-radius: 20px;
+  padding: 8px 14px;
+  box-sizing: border-box;
+  color: #aaa;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  width: 100%;
+  font-size: 15px;
+}
+
+.search-bar input::placeholder {
+  color: #8d8d8d;
+}
